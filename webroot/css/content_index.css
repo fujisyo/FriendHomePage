@@ -1,0 +1,187 @@
+.box {
+    width: 80vw;
+    margin: 0 auto;
+    height: 1500px;
+    border: 1px solid #f0f8ff;
+}
+
+.box_image {
+    height: 500px;
+    position: relative;
+}
+
+.slide_image {
+    height: 500px;
+    width: 100%;
+}
+
+.box_image_link {
+    position: absolute;
+    list-style: none;
+    display: flex;
+    top: 20px;
+    right: 20px;
+}
+
+.box_profile {
+    height: 300px;
+    text-align: center;
+}
+
+.face_image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.box_profile_message {
+    width: 250px;
+    margin: 0 auto;
+    text-align: left;
+    word-break: break-all;
+}
+
+.box_work {
+    height: 320px;
+    background-color: white;
+    text-align: center;
+}
+
+.box_work_menu {
+    display: flex;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.box_work_menu_message {
+    text-align: center;
+    width: 250px;
+    word-break: break-all;
+}
+
+
+.box_work_menu_message_text {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.box_contact {
+    height: 220px;
+    text-align: center;
+    background-color: white;
+}
+
+.box_contact_message {
+    height: 100px;
+}
+
+.box_contact_message_text {
+    width: 300px;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 15px;
+}
+
+.box_contact_mail {
+    height: 40px;
+}
+
+.box_contact_mail_space {
+    width: 120px;
+    background-color: #2f5d62;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.box_contact_mail_space_text {
+    display: inline;
+}
+
+.box_footer {
+    height: 100px;
+    background-color: #a7c4bc;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+}
+
+.box_footer_list {
+    list-style: none;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.footer_link {
+    display: inline;
+    float: left;
+}
+
+.box_footer_copylight {
+    position: absolute;
+    font-size: 10px;
+    bottom: 5px;
+    right: 50%;
+    color: cornflowerblue;
+}
+
+/* マージン */
+.img_margin_left {
+    margin-left: 15px;
+}
+.img_margin_top {
+    margin-top: 15px;
+}
+.img_margin_right {
+    margin-right: 15px;
+}
+.img_margin_bottom {
+    margin-bottom: 15px;
+}
+
+/* リンク */
+.link {
+    margin: 0 15px;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.link:hover {
+    color: #346751;
+}
+
+
+/* ボタンのリンク */
+.btn_link {
+    padding: 10px;
+    font-size: 13px;
+    color: #237e57;
+    text-decoration: none;
+}
+
+/* 見出しの大きさと文字色 */
+.contents_title {
+    color: #346751;
+    font-size: 30px;
+}
+
+/* 表題 */
+.greeting {
+    font-size: 20px;
+    color: cornflowerblue;
+}
+
+
+/* 文字の大きさと文字色*/
+.text_font_size {
+    font-size: 13px;
+}
+
+.text_color {
+    color: black;
+}
