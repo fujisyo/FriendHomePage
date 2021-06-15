@@ -1,0 +1,63 @@
+.blog-area {
+    margin-bottom: 120px;
+}
+
+.ttl-set {
+    margin: 0 40px 40px;
+    text-align: center;
+}
+
+.ttl-set h3 {
+    float: left;
+    width: 70%;
+    text-align: left;
+    font-size: 32px;
+    margin: 0;
+}
+
+.ttl-set .date {
+    float: right;
+    width: 30%;
+    text-align: right;
+    padding-top: 15px;
+    margin-top: 0;
+}
+
+.photo {
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.photo li {
+    margin-bottom: 25px;
+}
+
+.blog-area img {
+    width: 100%;
+    height: auto;
+}
+
+.text-float {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.text-float .text {
+    width: 47%;
+}
+
+.text-float .text.left {
+    float: left;
+}
+
+.text-float .text.right {
+    float: right;
+}
+
+.text-wide {
+    margin-bottom: 100px;
+}
+
+.text {
+    margin: 0;
+}
