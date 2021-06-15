@@ -1,7 +1,3 @@
-<?=$this->html->css('about.css') ?>
-<?= $this->Html->css('fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css'); ?>
-<?= $this->Html->css('http://fonts.googleapis.com/css?family=Lato:400,700'); ?>
-
 <body>
     <?=$this->element('Content/header'); ?>
     <div class="inner">
@@ -41,5 +37,4 @@
         </section>
         <?=$this->element('Content/footer'); ?>
     </div>
-
 </body>
