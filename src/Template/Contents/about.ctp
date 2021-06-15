@@ -3,25 +3,7 @@
 <?= $this->Html->css('http://fonts.googleapis.com/css?family=Lato:400,700'); ?>
 
 <body>
-    <header id="top" class="header">
-        <h1 class="header-title">あああああああ</h1>
-        <nav class="header-menu">
-            <ul>
-                <li><?=$this->html->link('About',['action'=>'about'],['class'=>'about']) ?></li>
-                <li><?=$this->html->link('Work','#',['class'=>'work']) ?></li>
-                <li><?=$this->html->link('Blog','#',['class'=>'blog']) ?></li>
-                <li><?=$this->html->link('Contact','#',['class'=>'contact']) ?></li>
-            </ul>
-        </nav>
-        <ul class="social-btn">
-            <li>
-                <a href="#" target="blank"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li class="last">
-                <a href="#" target="blank"><i class="fab fa-facebook-f"></i></a>
-            </li>
-        </ul>
-    </header>
+    <?=$this->element('Content/header'); ?>
     <div class="inner">
         <section class="cont-box cf">
             <h2 class="ttl large">About</h2>
@@ -32,25 +14,32 @@
                 保険<br>
                 固定費
             </p>
+            <div class="face-box cf">
+                <p class="face-img face-box-left">
+                    <?=$this->html->image('face1.png',['class'=>'']) ?>
+                </p>
+                <div class="face-box-right">
+                    <dl class="company-prof cf">
+                        <dt>名称 ：</dt>
+                        <dd>あああああああ</dd>
+                        <dt>所在地 ：</dt>
+                        <dd>大阪市内</dd>
+                        <dt>お問い合わせ ：</dt>
+                        <dd>kkkkkkk</dd>
+                        <dt>事業内容 :</dt>
+                        <dd>金融その他いろいろ行っております</dd>
+                    </dl>
+                    <h2>田中太郎　Tanaka Taro</h2>
+                    <dl class="company-prof cf">
+                        <dt>Youtube:</dt>
+                        <dd><?=$this->html->link('kkkkkk','#') ?></dd>
+                        <dt>Instagram:</dt>
+                        <dd><?=$this->html->link('llllll ','#') ?></dd>
+                    </dl>
+                </div>
+            </div>
         </section>
-        <!-- to-top -->
-        <p class="to-top">
-            <a href="#top"><i class="fas fa-arrow-up"></i></a>
-        </p>
-        <!-- footer -->
-        <footer class="cf">
-            <nav class="footer">
-                <ul class="cf">
-                    <li><?=$this->html->link('About','#',['class'=>'about']) ?></li>
-                    <li><?=$this->html->link('Work','#',['class'=>'work']) ?></li>
-                    <li><?=$this->html->link('Blog','#',['class'=>'blog']) ?></li>
-                    <li><?=$this->html->link('Contact','#',['class'=>'contact']) ?></li>
-                </ul>
-            </nav>
-            <p class="copyright">
-                <small>© UNDERLINE All rights reserved.</small>
-            </p>
-        </footer>
+        <?=$this->element('Content/footer'); ?>
     </div>
 
 </body>

@@ -1,30 +1,6 @@
-<?=$this->html->css('homePage.css') ?>
-<?= $this->Html->css('fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css'); ?>
-<?= $this->Html->css('http://fonts.googleapis.com/css?family=Lato:400,700'); ?>
-<?= $this->Html->script('http://code.jquery.com/jquery.min.js'); ?>
-<?= $this->Html->script('smoothscroll') ?>
-<?= $this->Html->script('homePage') ?>
 
 <body>
-    <header id="top" class="header">
-        <h1 class="header-title">あああああああ</h1>
-        <nav class="header-menu">
-            <ul>
-                <li><?=$this->html->link('About',['action'=>'about'],['class'=>'about']) ?></li>
-                <li><?=$this->html->link('Work','#',['class'=>'work']) ?></li>
-                <li><?=$this->html->link('Blog','#',['class'=>'blog']) ?></li>
-                <li><?=$this->html->link('Contact','#',['class'=>'contact']) ?></li>
-            </ul>
-        </nav>
-        <ul class="social-btn">
-            <li>
-                <a href="#" target="blank"><i class="fab fa-instagram"></i></a>
-            </li>
-            <li class="last">
-                <a href="#" target="blank"><i class="fab fa-facebook-f"></i></a>
-            </li>
-        </ul>
-    </header>
+    <?=$this->element('Content/header'); ?>
     <div class="main">
         <div class="main-picture">
             <div >
@@ -121,23 +97,6 @@
                 </li>
             </ul>
         </section>
-        <!-- to-top -->
-        <p class="to-top">
-            <a href="#top"><i class="fas fa-arrow-up"></i></a>
-        </p>
-        <!-- footer -->
-        <footer class="cf">
-            <nav class="footer">
-                <ul class="cf">
-                    <li><?=$this->html->link('About','#',['class'=>'about']) ?></li>
-                    <li><?=$this->html->link('Work','#',['class'=>'work']) ?></li>
-                    <li><?=$this->html->link('Blog','#',['class'=>'blog']) ?></li>
-                    <li><?=$this->html->link('Contact','#',['class'=>'contact']) ?></li>
-                </ul>
-            </nav>
-            <p class="copyright">
-                <small>© UNDERLINE All rights reserved.</small>
-            </p>
-        </footer>
+        <?=$this->element('Content/footer'); ?>
     </div>
 </body>

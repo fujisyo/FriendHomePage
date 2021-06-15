@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\View\View;
 
 /**
  * Books Controller
@@ -12,6 +13,10 @@ use App\Controller\AppController;
  */
 class ContentsController extends AppController
 {
+    public function initialize()
+    {
+        $this->viewBuilder()->setLayout('content');
+    }
     
 
     /**
@@ -21,16 +26,16 @@ class ContentsController extends AppController
      */
     public function index()
     {
-       $this->viewBuilder()->setLayout(false);
+       
     }
     public function homePage()
     {
-       $this->viewBuilder()->setLayout(false);
+       
     }
 
     public function about()
     {
-        $this->viewBuilder()->setLayout(false);
+        
     }
 
 
