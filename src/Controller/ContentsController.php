@@ -38,5 +38,19 @@ class ContentsController extends AppController
         
     }
 
+    public function work()
+    {
+
+    }
+
+    public function blog()
+    {
+
+    }
+
+    public function contact()
+    {
+
+    }
 
 }
