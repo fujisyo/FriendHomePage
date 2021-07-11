@@ -1,0 +1,26 @@
+.login {
+    width: 300px;
+    height: 300px;
+    margin: 100px auto 0 auto;
+    background-color: #a5a5a5;
+    padding: 0 20px;
+    border-radius: 5%;
+}
+
+.login-form {
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+}
+
+.login-password-form {
+    margin: 20px 0 20px 20px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.login-password-button {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+}

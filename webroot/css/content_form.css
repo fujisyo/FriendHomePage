@@ -1,0 +1,16 @@
+h4 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.form-box-title {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.service-box-form {
+    display: flex;
+}
