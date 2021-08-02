@@ -1,0 +1,69 @@
+.screen-reader-response {
+
+}
+
+.wpcf7 {
+    margin: 0;
+    padding: 0;
+}
+
+.contact-form {
+    margin: 0;
+}
+
+.contact-form dt {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 13px;
+}
+
+.w01 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.wpcf7-form {
+    position: relative;
+}
+
+.wpcf7-form-text {
+    width: 350px;
+    height: 20px;
+    font-size: 16px;
+    border: 1px solid #bbbbbb;
+}
+
+.w02 {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.wpcf7-form-textarea {
+    width: 400px;
+    height: 150px;
+    font-size: 16px;
+    border: 1px solid #bbbbbb;
+}
+
+.submitbtn {
+    width: 228px;
+    height: 54px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #8e8e8e;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+/* 必須ラベル */
+.contact-form dt span.required {
+    margin-left: 10px;
+    padding: 1px 3px;
+    background-color: #f45555;
+    font-size: 10px;
+    color: #ffffff;
+}

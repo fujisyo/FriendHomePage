@@ -11,7 +11,7 @@ use Cake\View\View;
  *
  * @method \App\Model\Entity\Content[] paginate($object = null, array $settings = [])
  */
-class ContentsController extends AppController
+class AdminsController extends AppController
 {
     public function initialize()
     {
@@ -24,33 +24,14 @@ class ContentsController extends AppController
      *
      * @return \Cake\Http\Response|void
      */
-    public function index()
+    public function login()
     {
        
     }
-    public function homePage()
-    {
-       
-    }
-
-    public function about()
-    {
-        
-    }
-
-    public function work()
-    {
+    public function contentForm()
+    {   
 
     }
 
-    public function blog()
-    {
-
-    }
-
-    public function contact()
-    {
-
-    }
-
+    
 }

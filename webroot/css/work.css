@@ -1,0 +1,30 @@
+.work-list {
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+
+.work-list li {
+    margin-bottom: 120px;
+}
+
+.work-list img {
+    margin-bottom: 45px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.work-list h3.ttl {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.skill {
+    margin: 0 0 15px 0;
+}
+
+.read-last {
+    margin: 0 0 30px 0;
+}
